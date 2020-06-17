@@ -36,6 +36,18 @@
 *Cualquiera:* True o False, indica si el trigger es con cualquier elemento.  
 *Desencadenante:* Componente Collider del objeto activador, en caso de que no sea cualquiera.  
 
+* ### [Disparar Audio](files/collisionaudio.cs)
+![captura de collisionaudio](img/colisionaudio.JPG)  
+**Descripcion:** Dispara un sonido al recibir una señal de trigger. 
+
+*Condicion:* Una Vez (Reproduce el sonido solo la primera vez que colisiona), CadaVez (Reproduce el sonido desde el comienzo cada vez que hay colision), PorContacto (Reproduce el sonido mientras este en contacto con el objeto indicado).  
+*Cualquiera:* True o False, indica si el trigger es con cualquier elemento.  
+*Desencadenante:* Componente Collider del objeto activador, en caso de que no sea cualquiera.
+*Sonido:* Archivo de sonido a reproducir.  
+*Objetivo:* Fuente de sonido a utilizar para reproducir el archivo.
+
+
+
   
   
   
