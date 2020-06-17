@@ -24,7 +24,7 @@
 *Desencadenante:* Componente Collider del objeto activador. 
 
 
-* ### [Aparece / Desaparece](files/cambiarluz.cs)
+* ### [Cambiar Luz](files/cambiarluz.cs)
 ![captura de cambiarluz](img/cambiarluz.JPG)  
 **Descripcion:** Modifica las propiedades de una luz en la escena cuando un trigger de colision se dispara.  
 
