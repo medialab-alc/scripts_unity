@@ -12,8 +12,29 @@
 *Objetivo:* Componente Animator del objeto que contiene la animacion.  
 *Nombre Animacion:* Nombre de la animacion a reproducir.  
 *Cualquiera:* True o False, indica si el trigger es con cualquier elemento.  
-*Desencadenante:* Componente Collider del objeto activador, en caso de que no sea cualquiera.
+*Desencadenante:* Componente Collider del objeto activador, en caso de que no sea cualquiera.  
 
+* ### [Aparece / Desaparece](files/aparecer_desaparecer.cs)
+![captura de aparecedesaparece](img/aparecerdesaparecer.JPG)  
+**Descripcion:** Hace aparecer o desaparecer un elemento de la escena cuando un trigger de colision se dispara.  
+
+*Accion:* Aparecer o Desaparecer  
+*Condicion:* Trigger Enter, Trigger Stay, Trigger Exit, Collision Enter.  
+*Objetivo:* Elemento que a Desaparecer / Aparecer  
+*Desencadenante:* Componente Collider del objeto activador. 
+
+
+* ### [Aparece / Desaparece](files/cambiarluz.cs)
+![captura de cambiarluz](img/cambiarluz.JPG)  
+**Descripcion:** Modifica las propiedades de una luz en la escena cuando un trigger de colision se dispara.  
+
+*Condicion:* Trigger Enter, Trigger Stay, Trigger Exit, Collision Enter.  
+*Objetivo:* Elemento luz a modificar.  
+*Color:* Color de la luz a establecer.  
+*Range:* Rando de la luz a establecer.    
+*Intensity:* Intensidad de la luz a establecer.  
+*Cualquiera:* True o False, indica si el trigger es con cualquier elemento.  
+*Desencadenante:* Componente Collider del objeto activador, en caso de que no sea cualquiera.  
 
   
   
