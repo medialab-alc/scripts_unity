@@ -4,7 +4,7 @@
 ----
 ## Scripts
 * ### [Animation Trigger](files/animationtrigger.cs)
-![captura de animationtrigger](img/animationtrigger.jpg)  
+![captura de animationtrigger](img/animationtrigger.JPG)  
 **Descripcion:** Dispara una animacion cuando un trigger de colision es detectado.
 
 
