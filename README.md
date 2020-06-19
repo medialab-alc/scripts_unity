@@ -31,7 +31,7 @@
 *Condicion:* Trigger Enter, Trigger Stay, Trigger Exit, Collision Enter.  
 *Objetivo:* Elemento luz a modificar.  
 *Color:* Color de la luz a establecer.  
-*Range:* Rando de la luz a establecer.    
+*Range:* Rango de la luz a establecer.    
 *Intensity:* Intensidad de la luz a establecer.  
 *Cualquiera:* True o False, indica si el trigger es con cualquier elemento.  
 *Desencadenante:* Componente Collider del objeto activador, en caso de que no sea cualquiera.  
@@ -46,8 +46,59 @@
 *Sonido:* Archivo de sonido a reproducir.  
 *Objetivo:* Fuente de sonido a utilizar para reproducir el archivo.
 
+* ### [Cambiar Material](files/cambiomaterial.cs)
+![captura de collisionaudio](img/cambiomaterial.JPG)  
+**Descripcion:** Cambia el material al recibir una señal de trigger. 
 
+*Condicion:* Trigger Enter, Trigger Stay, Trigger Exit, Collision Enter.  
+*Cualquiera:* True o False, indica si el trigger es con cualquier elemento.  
+*Desencadenante:* Componente Collider del objeto activador, en caso de que no sea cualquiera.
+*Objetivo:* Componente Renderer del elemento a modificar.
+*Material:* Nuevo material a aplicar.  
+*Color:* Color del nuevo material.  
+*Metallic:* Propiedad Metallic del nuevo material.  
+*Smoothness:* Propiedad Smoothness del nuevo material.  
+*Albedo:* Textura Albedo.  
+*Normal:* Textura Normla.  
+*Emission:* True o False.  
+*Emission Color:* Color de propiedad Emisison.  
 
-  
-  
-  
+* ### [Encender Luz](files/encenderluz.cs)
+![captura de cambiarluz](img/encenderluz.JPG)  
+**Descripcion:** Enciende una luz al recibir una señal de Trigger.  
+
+*Condicion:* Trigger Enter, Trigger Stay, Trigger Exit, Collision Enter, Collision Stay.  
+*Objetivo:* Elemento luz a encender.  
+*Color:* Color de la luz a establecer.  
+*Range:* Rango de la luz a establecer.    
+*Intensity:* Intensidad de la luz a establecer.  
+*Cualquiera:* True o False, indica si el trigger es con cualquier elemento.  
+*Desencadenante:* Componente Collider del objeto activador, en caso de que no sea cualquiera. 
+ 
+* ### [Trigger Audio](files/triggeraudio.cs)
+![captura de collisionaudio](img/triggeraudio.JPG)  
+**Descripcion:** Dispara un sonido al recibir una señal de trigger. 
+
+*Condicion:* Trigger Enter, Trigger Stay, Trigger Exit.  
+*Cualquiera:* True o False, indica si el trigger es con cualquier elemento.  
+*Desencadenante:* Componente Collider del objeto activador, en caso de que no sea cualquiera.
+*Sonido:* Archivo de sonido a reproducir.  
+*Objetivo:* Fuente de sonido a utilizar para reproducir el archivo.
+
+* ### [Teletransportacion](files/Teleport.cs)
+![captura de collisionaudio](img/teleport.JPG)  
+**Descripcion:** Teletransporta al personaje a un lugar especifico al hacer contacto. 
+
+*Destino:* Posicion de destino de la teletransportacion. Esta indicada por el transform de otro objeto.  
+*Trigger:* Collider del desencadenante.  
+*Personaje:* Elemento a teletransportar.  
+
+* ### [FreeCam](files/FreeCam.cs)
+![captura de collisionaudio](img/freecam.JPG)  
+**Descripcion:** Script que otorga a la camara estandar de Unity la posibilidad de ser una Free Cam (que se mueve libremente por el espacio)
+
+*Movement Speed:* Velocidad del movimiento.  
+*Fast Movement Speed:* Velocidad de movimiento rapido (presionando SHIFT).  
+*Free Look Sensitivity:* Sensibilidad del movimiento del mouse.   
+*Zoom Sensitivity:* Sensibilidad del movimiento usando el mouse wheel.  
+*Fast Zoom Sensitivity:* Sensibilidad del movimiento rapido usando el mouse wheel.  
