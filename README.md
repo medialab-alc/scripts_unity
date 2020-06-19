@@ -47,7 +47,7 @@
 *Objetivo:* Fuente de sonido a utilizar para reproducir el archivo.
 
 * ### [Cambiar Material](files/cambiomaterial.cs)
-![captura de collisionaudio](img/cambiomaterial.JPG)  
+![captura de cambiomaterial](img/cambiomaterial.JPG)  
 **Descripcion:** Cambia el material al recibir una señal de trigger. 
 
 *Condicion:* Trigger Enter, Trigger Stay, Trigger Exit, Collision Enter.  
@@ -64,7 +64,7 @@
 *Emission Color:* Color de propiedad Emisison.  
 
 * ### [Encender Luz](files/encenderluz.cs)
-![captura de cambiarluz](img/encenderluz.JPG)  
+![captura de encenderluz](img/encenderluz.JPG)  
 **Descripcion:** Enciende una luz al recibir una señal de Trigger.  
 
 *Condicion:* Trigger Enter, Trigger Stay, Trigger Exit, Collision Enter, Collision Stay.  
@@ -76,7 +76,7 @@
 *Desencadenante:* Componente Collider del objeto activador, en caso de que no sea cualquiera. 
  
 * ### [Trigger Audio](files/triggeraudio.cs)
-![captura de collisionaudio](img/triggeraudio.JPG)  
+![captura de triggeraudio](img/triggeraudio.JPG)  
 **Descripcion:** Dispara un sonido al recibir una señal de trigger. 
 
 *Condicion:* Trigger Enter, Trigger Stay, Trigger Exit.  
@@ -86,7 +86,7 @@
 *Objetivo:* Fuente de sonido a utilizar para reproducir el archivo.
 
 * ### [Teletransportacion](files/Teleport.cs)
-![captura de collisionaudio](img/teleport.JPG)  
+![captura de teleport](img/teleport.JPG)  
 **Descripcion:** Teletransporta al personaje a un lugar especifico al hacer contacto. 
 
 *Destino:* Posicion de destino de la teletransportacion. Esta indicada por el transform de otro objeto.  
@@ -94,7 +94,7 @@
 *Personaje:* Elemento a teletransportar.  
 
 * ### [FreeCam](files/FreeCam.cs)
-![captura de collisionaudio](img/freecam.JPG)  
+![captura de freecam](img/freecam.JPG)  
 **Descripcion:** Script que otorga a la camara estandar de Unity la posibilidad de ser una Free Cam (que se mueve libremente por el espacio)
 
 *Movement Speed:* Velocidad del movimiento.  
